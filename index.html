@@ -1,16 +1,54 @@
-<html>
-<head>
-<title>Przykład nr tutaj wpisz odpowiedni nume </title>
-<script language="JavaScript">
-function WinOpen()
-{
-window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
-}
-</script>
-</head>
-<body>
-<form>
-<input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')">
-</form>
-</body>
+	<html>
+	<head>
+	<title>Rychert</title>
+		<script language="JavaScript">
+		function WinOpen()
+		{
+		window.open("zad3.html","zad3","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+		}
+		
+		function show_alert() 
+		{ 
+		alert("Uwaga!"); 
+		}
+		
+		function show_confirm() 
+		{
+		var r=confirm("Naciśnij klawisz");
+		
+		if (r==true)
+			{ document.write("Nacisnąłeś OK!"); }
+		else
+			{ document.write("Nacisnąłeś Cancel!"); }
+		}
+		
+		function show_prompt()
+		{
+			var name=prompt("Napisz imię","Imię Nazwisko");
+			if (name!=null && name!="")
+			{
+			document.write("Witaj " + name + "! jak się masz?");
+			}
+		}
+		
+		function prompt_suma()
+		{
+			var liczba1=prompt("liczba1=","");
+			var liczba2=prompt("liczba2=","");
+			var suma;
+			var a=parseFloat(liczba1);
+			var b=parseFloat(liczba2);
+			suma=a+b;
+			document.write("suma="+a+" + "+b+" = "+suma+"<br>");
+		}
+		</script>
+	</head>
+	
+	<body>
+		<input type="button" name="przycisk3" value="Rychert_Zadanie3" onclick="WinOpen(' ')">
+		<input type="button" name="przycisk4" value="Rychert_Zadanie4" onclick="show_alert(' ')">
+		<input type="button" name="przycisk5" value="Rychert_Zadanie5" onclick="show_confirm(' ')">
+		<input type="button" name="przycisk6" value="Rychert_Zadanie6" onclick="show_prompt(' ')">
+		<input type="button" name="przycisk7" value="Rychert_Zadanie7" onclick="prompt_suma(' ')">
+	</body>
 </html>
