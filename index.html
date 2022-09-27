@@ -2,7 +2,16 @@
 	<head>
 	<title>Rychert</title>
 		<script language="JavaScript">
-		function WinOpen()
+		function WinOpen1()
+		{
+		window.open("zad1.html","zad1","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+		}
+		function WinOpen2()
+		{
+		window.open("zad2.html","zad2","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+		}
+			
+		function WinOpen3()
 		{
 		window.open("zad3.html","zad3","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
 		}
@@ -45,7 +54,9 @@
 	</head>
 	
 	<body>
-		<input type="button" name="przycisk3" value="Rychert_Zadanie3" onclick="WinOpen(' ')">
+		<input type="button" name="przycisk1" value="Rychert_Zadanie1" onclick="WinOpen1(' ')">
+		<input type="button" name="przycisk2" value="Rychert_Zadanie2" onclick="WinOpen2(' ')">
+		<input type="button" name="przycisk3" value="Rychert_Zadanie3" onclick="WinOpen3(' ')">
 		<input type="button" name="przycisk4" value="Rychert_Zadanie4" onclick="show_alert(' ')">
 		<input type="button" name="przycisk5" value="Rychert_Zadanie5" onclick="show_confirm(' ')">
 		<input type="button" name="przycisk6" value="Rychert_Zadanie6" onclick="show_prompt(' ')">
