@@ -1,0 +1,44 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function okno_zamknij_rychert()
+ {
+ window.close()
+ }
+ </script>
+ </head>
+<body>
+Teoria: </br>
+a)Uwagi na temat JS </br>
+-kiedy powstała </br>
+1995 rok </br>
+-dlaczego jest to język skryptowy </br>
+ponieważ nie musi zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania. </br>
+-gdzie jest wykonywany JS (klient lub serwer) </br>
+po stronie klienta </br>
+-dlaczego jest to bezpieczne narzędzie </br>
+ponieważ ma znacznie ograniczone </br>
+uprawnienia dostępu do zasobów komputera, przy użyciu którego przeglądana jest dana strona, a </br>
+wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu. </br>
+-czy jest to język obiektowy , jeśli tak to dlaczego. </br>
+jest językiem obiektowym poineważ opisuje obiekty i ich właściwości </br>
+b)Przepisz linie kody pod nimi wytłumaczenie: </br> 
+</br>
+&lsaquoinput type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&rsaquo </br>
+przycisk o nazwie "przycisk" z zawartością "nowa strona", który przy wciśnięciu wywołuje funkcję WinOpen(). </br> 
+</br>
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200"); </br>
+otwiera w nowym oknie plik obraz.html nazywa nowe okno okienko, bez przycisków katalogów paska adresowego i menu przeglądarki. </br>
+ustawia wysokość okna na 280 i szerokość na 160 oraz ustawia go 200 jednostek od góry ekranu i 200 jednostek od lewej strony ekranu. <br>
+</br>
+toolbar=no ukrywa przyciski katalogów </br>
+directories=no  ukrywa pasek adresowy</br>
+menubar=no  ukrywa menu przeglądarki</br>
+height=280 ustawia wysokość okna na 280</br>
+width=160 ustawia szerokość okna na 160</br>
+top=200 ustawia położenie okna względem góry ekranu na 200</br>
+left=200 ustawia położenie okna względem lewej strony ekranu na 200</br>
+ <img src="obraz1.gif" />
+ <input type="button" value="zamknij okno" onclick="okno_zamknij_rychert()"/>
+</body>
+</html>
