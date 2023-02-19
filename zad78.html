@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <script language="JavaScript">
+        var x = prompt("podaj 1 liczbę", "");
+        var a = parseFloat(x);
+        var y = prompt("podaj 2 liczbę", "");
+        var b = parseFloat(y);
+        if (a < b) {
+            for (var i = a; i <= b; i++) {
+                if (i % 2 != 0) {
+                    document.write(i + "<br>");
+                }
+            }
+        } else if (a > b) {
+            for (var i = a; i >= b; i--) {
+                if (i % 2 != 0) {
+                    document.write(i + "<br>");
+                }
+            }
+        } else {
+            document.write("liczby są równe");
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

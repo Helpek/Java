@@ -5,74 +5,122 @@
 		</style>
 	<title>Rychert</title>
 		<script language="JavaScript">
-		function WinOpen1()
-		{
-		window.open("zad1.html","zad1","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
-		}
-		function WinOpen2()
-		{
-		window.open("zad2.html","zad2","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
-		}
-			
-		function WinOpen3()
-		{
-		window.open("zad3.html","zad3","toolbar=no,directories=no,menubar=no,height=580,width=560,top=200,left=200");
-		}
-		
-		function show_alert() 
-		{ 
-		alert("Uwaga!"); 
-		}
-		
-		function show_confirm() 
-		{
-		var r=confirm("Naciśnij klawisz");
-		
-		if (r==true)
-			{ document.write("Nacisnąłeś OK!"); }
-		else
-			{ document.write("Nacisnąłeś Cancel!"); }
-		}
-		
-		function show_prompt()
-		{
-			var name=prompt("Napisz imię","Imię Nazwisko");
-			if (name!=null && name!="")
-			{
-			document.write("Witaj " + name + "! jak się masz?");
+			function ZadOpen62(){
+			window.open("zad62.html","zadanie","toolbar=no,directories=no,menubar=no");
 			}
-		}
-		
-		function prompt_suma()
-		{
-			var liczba1=prompt("liczba1=","");
-			var liczba2=prompt("liczba2=","");
-			var suma;
-			var a=parseFloat(liczba1);
-			var b=parseFloat(liczba2);
-			suma=a+b;
-			document.write("suma="+a+" + "+b+" = "+suma+"<br>");
-		}
-			
-		function prompt_egipt()
-		{
-			var liczba1=prompt("podaj m=","");
-			var m_ryc=parseFloat(liczba1);
-			document.write("1/"+m_ryc+"=1/"+(m_ryc+1)+"+1/"+m_ryc*(m_ryc+1)+"<br>");
-		}
+            function KodOpen62() {
+                window.open("kod62.html", "kod", "toolbar=no,directories=no,menubar=no");
+			}
+            function ZadOpen63() {
+                window.open("zad63.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen63() {
+                window.open("kod63.html", "kod", "toolbar=no,directories=no,menubar=no");
+			}
+            function ZadOpen64() {
+                window.open("zad64.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen64() {
+                window.open("kod64.html", "kod", "toolbar=no,directories=no,menubar=no");
+			}
+            function ZadOpen65() {
+                window.open("zad65.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen65() {
+                window.open("kod65.html", "kod", "toolbar=no,directories=no,menubar=no");
+			}
+            function ZadOpen66() {
+                window.open("zad66.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen66() {
+                window.open("kod66.html", "kod", "toolbar=no,directories=no,menubar=no");
+			}
+            function ZadOpen67() {
+                window.open("zad67.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen67() {
+                window.open("kod67.html", "kod", "toolbar=no,directories=no,menubar=no");
+			}
+            function ZadOpen69() {
+                window.open("zad69.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen69() {
+                window.open("kod69.html", "kod", "toolbar=no,directories=no,menubar=no");
+            }
+            function ZadOpen70() {
+                window.open("zad70.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen70() {
+                window.open("kod70.html", "kod", "toolbar=no,directories=no,menubar=no");
+            }
+            function ZadOpen72() {
+                window.open("zad72.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen72() {
+                window.open("kod72.html", "kod", "toolbar=no,directories=no,menubar=no");
+            }
+            function ZadOpen75() {
+                window.open("zad75.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen75() {
+                window.open("kod75.html", "kod", "toolbar=no,directories=no,menubar=no");
+            }
+            function ZadOpen76() {
+                window.open("zad76.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen76() {
+                window.open("kod76.html", "kod", "toolbar=no,directories=no,menubar=no");
+            }
+            function ZadOpen77() {
+                window.open("zad77.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen77() {
+                window.open("kod77.html", "kod", "toolbar=no,directories=no,menubar=no");
+            }
+            function ZadOpen78() {
+                window.open("zad78.html", "zadanie", "toolbar=no,directories=no,menubar=no");
+            }
+            function KodOpen78() {
+                window.open("kod78.html", "kod", "toolbar=no,directories=no,menubar=no");
+            }
 		</script>
 	</head>
 	
-	<body>
-		<h1> Rychert </h1>
-		<input type="button" name="przycisk1" value="Rychert_Zadanie1" onclick="WinOpen1(' ')">
-		<input type="button" name="przycisk2" value="Rychert_Zadanie2" onclick="WinOpen2(' ')">
-		<input type="button" name="przycisk3" value="Rychert_Zadanie3" onclick="WinOpen3(' ')">
-		<input type="button" name="przycisk4" value="Rychert_Zadanie4" onclick="show_alert(' ')">
-		<input type="button" name="przycisk5" value="Rychert_Zadanie5" onclick="show_confirm(' ')">
-		<input type="button" name="przycisk6" value="Rychert_Zadanie6" onclick="show_prompt(' ')">
-		<input type="button" name="przycisk7" value="Rychert_Zadanie7" onclick="prompt_suma(' ')">
-		
-		<input type="button" name="przycisk10" value="Rychert_Zadanie10" onclick="prompt_egipt(' ')">
-	</body>
+    <body style="background-color:teal;">
+        <h1> Rychert </h1>
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 62" onclick="ZadOpen62()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 63" onclick="ZadOpen63()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 64" onclick="ZadOpen64()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 65" onclick="ZadOpen65()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 66" onclick="ZadOpen66()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 67" onclick="ZadOpen67()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 69" onclick="ZadOpen69()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 70" onclick="ZadOpen70()">
+
+        <br>
+
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 62" onclick="KodOpen62()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 63" onclick="KodOpen63()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 64" onclick="KodOpen64()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 65" onclick="KodOpen65()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 66" onclick="KodOpen66()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 67" onclick="KodOpen67()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 69" onclick="KodOpen69()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 70" onclick="KodOpen70()">
+
+        <br>        <br>
+
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 72" onclick="ZadOpen72()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 75" onclick="ZadOpen75()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 76" onclick="ZadOpen76()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 77" onclick="ZadOpen77()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Zadanie 78" onclick="ZadOpen78()">
+
+        <br>
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 72" onclick="KodOpen72()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 75" onclick="KodOpen75()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 76" onclick="KodOpen76()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 77" onclick="KodOpen77()">
+        <input style="background-color: grey; width: 150px;" type="button" name="przycisk1" value="Rychert_Kod 78" onclick="KodOpen78()">
+    </body>
 </html>

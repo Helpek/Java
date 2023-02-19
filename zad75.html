@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <script language="JavaScript">
+        for (var i = 0; i <= 39; i++) {
+            document.write("w(" + i + ")=" + (i * i + i + 41) + "<br>");
+            if (i % 5 == 0) {
+                var r = confirm("Czy chcesz wyświetlić kolejne 5?");
+                if (r) {
+                    continue;
+                }
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
